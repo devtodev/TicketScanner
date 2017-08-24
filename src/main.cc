@@ -128,7 +128,7 @@ int main( int argc, char** argv )
 	Mat src, graysrc, ticketImage;
 	char* window_name = "Ticket Scanner";
 	/// Load an image
-	src = imread( "/home/karl/Pictures/ticket.png" );
+	src = imread( "ticket.png" );
 	if( !src.data )
 		return -1;
 	// Process image
